@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmojiStatusApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".Authenticate"
             android:exported="false" />
         <activity
-            android:name=".Authenticate"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
